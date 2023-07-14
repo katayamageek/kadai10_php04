@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>店内アナウンス作成アプリ</title>
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="gptcontainer">
+      <div class="gptheader">
+        <h1>店内アナウンス作成アプリ</h1>
+      </div>
+      <div class="gptmessages" id="gptmessages"></div>
+
+      <!-- chatGPT組み込み -->
+      <div class="gptinput">
+        <textarea id="propername" cols="40" rows="1" placeholder="商品の固有名称"></textarea>
+        <br />
+        <textarea id="generalname" cols="40" rows="1" placeholder="商品の一般名称"></textarea>
+        <br />
+        <textarea id="salespoint1" cols="40" rows="1" placeholder="セールスポイント" class="salespoint"></textarea>
+        <br />
+        <textarea id="salespoint2" cols="40" rows="1" placeholder="セールスポイント" class="salespoint"></textarea>
+        <br />
+        <textarea id="salespoint3" cols="40" rows="1" placeholder="セールスポイント" class="salespoint"></textarea>
+        <br />        
+        <input type="button" onClick="reply()" id="change" value="generate" />
+        <br /><br />
+        <textarea id="response_text" cols="80" rows="10" disabled></textarea>
+        <br />
+        <!-- <button type="button" id="sbutton">送信</button> -->
+      </div>
+    <!-- chatGPT組み込み -->
+    </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- chatgptの組み込み -->
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+<script src="sample.js"></script>
+  </body>
+  </html>
+  

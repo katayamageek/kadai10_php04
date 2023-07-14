@@ -1,0 +1,62 @@
+  body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .gptcontainer {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    overflow: hidden;
+  }
+  .gptheader {
+    background-color: #4267B2;
+    color: #fff;
+    padding: 10px;
+  }
+  .gptheader h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  /* .gptmessages {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+  } */
+  .message {
+    background-color: #f1f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .message .sender {
+    color: #4267B2;
+    font-weight: bold;
+  }
+  .message .text {
+    margin: 5px 0;
+  }
+  .gptinput {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+  }
+  .gptinput textarea{
+    max-width: 570px;
+  }
+
+.gptinput button {
+    background-color: #4267B2;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+  .gptinput button:hover {
+    background-color: #2e4b84;
+  }
